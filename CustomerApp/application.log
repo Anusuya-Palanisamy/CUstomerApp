@@ -1,0 +1,23 @@
+2020-11-27 15:19:12,678 INFO com.aspire.CustomerApp.CustomerApplication [main] Starting CustomerApplication using Java 1.8.0_161 on Aspirenav694 with PID 18136 (E:\CustomerApp\target\classes started by anusuya.palanisamy in E:\CustomerApp)
+2020-11-27 15:19:12,680 INFO com.aspire.CustomerApp.CustomerApplication [main] No active profile set, falling back to default profiles: default
+2020-11-27 15:19:13,104 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-11-27 15:19:13,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 32 ms. Found 1 MongoDB repository interfaces.
+2020-11-27 15:19:13,454 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8082 (http)
+2020-11-27 15:19:13,462 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2020-11-27 15:19:13,462 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-11-27 15:19:13,463 INFO org.apache.catalina.core.AprLifecycleListener [main] An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-11-27 15:19:13,463 INFO org.apache.catalina.core.AprLifecycleListener [main] Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-11-27 15:19:13,463 INFO org.apache.catalina.core.AprLifecycleListener [main] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-11-27 15:19:13,463 INFO org.apache.catalina.core.AprLifecycleListener [main] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-11-27 15:19:13,465 INFO org.apache.catalina.core.AprLifecycleListener [main] OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-11-27 15:19:13,517 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2020-11-27 15:19:13,518 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 797 ms
+2020-11-27 15:19:13,640 INFO org.mongodb.driver.cluster [main] Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-11-27 15:19:13,747 INFO org.mongodb.driver.connection [cluster-ClusterId{value='5fc0cb9908907918e4c33539', description='null'}-localhost:27017] Opened connection [connectionId{localValue:2, serverValue:37}] to localhost:27017
+2020-11-27 15:19:13,747 INFO org.mongodb.driver.connection [cluster-rtt-ClusterId{value='5fc0cb9908907918e4c33539', description='null'}-localhost:27017] Opened connection [connectionId{localValue:1, serverValue:36}] to localhost:27017
+2020-11-27 15:19:13,747 INFO org.mongodb.driver.cluster [cluster-ClusterId{value='5fc0cb9908907918e4c33539', description='null'}-localhost:27017] Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=24078700}
+2020-11-27 15:19:14,051 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-27 15:19:14,206 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8082 (http) with context path ''
+2020-11-27 15:19:14,214 INFO com.aspire.CustomerApp.CustomerApplication [main] Started CustomerApplication in 1.83 seconds (JVM running for 2.333)
+2020-11-27 15:30:22,382 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(2)-172.16.166.142] Application shutdown requested.
+2020-11-27 15:30:22,510 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [RMI TCP Connection(2)-172.16.166.142] Shutting down ExecutorService 'applicationTaskExecutor'

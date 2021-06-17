@@ -1,0 +1,35 @@
+type customer{
+                 id: ID!,
+                 name:String!,
+                 emailId:String!,
+                 type:String!,
+                 address:Address!
+}
+
+
+type Address {
+    city: String!,
+     state:   String!,
+     country: String!
+}
+
+input customerInput {
+                 id: ID!,
+                 name:String!,
+                 emailId:String!,
+                 type:String!,
+                 address:Address!
+}
+input AddressInput {
+     city: String!,
+     state:   String!,
+     country: String!
+}
+
+type Query {
+        customer(name:String) : Customer;
+}
+
+type Mutation {
+        createCustomer(input: customerInput) : Customer;
+}

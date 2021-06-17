@@ -1,0 +1,5 @@
+FROM openjdk:8
+EXPOSE 8082
+VOLUME /temp
+ADD target/spring-boot-docker-new.jar spring-boot-docker-new.jar
+ENTRYPOINT ["java","-jar","/spring-boot-docker-new.jar"]
